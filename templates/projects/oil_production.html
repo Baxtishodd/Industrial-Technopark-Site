@@ -1,0 +1,153 @@
+{% extends 'core/base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- Header -->
+<div class="container-fluid bg-header py-5 oil-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {% trans "Oil Production" %}
+            </h1>
+            <p class="text-white">
+                {% trans "Vegetable Oil Processing and Production Facility" %}
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- About -->
+<div class="container py-5 wow fadeInUp">
+    <div class="row g-5 align-items-center">
+        <div class="section-title text-center position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "About project" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "High-Quality Oil Processing" %}
+            </h1>
+        </div>
+        <div class="col-lg-6">
+            <h3>{% trans "Koson Yog' LLC" %}</h3>
+            <p>
+                {% trans "This resident operates a modern oil production facility, processing raw agricultural materials into high-quality vegetable oil for domestic and export markets." %}
+            </p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-cogs text-primary me-2"></i>{% trans "Automated Processing Lines" %}</h6>
+                    <h6><i class="fa fa-leaf text-primary me-2"></i>{% trans "Eco-friendly Production" %}</h6>
+                </div>
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-chart-bar text-primary me-2"></i>{% trans "High Production Capacity" %}</h6>
+                    <h6><i class="fa fa-check-circle text-primary me-2"></i>{% trans "Quality Assurance System" %}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="{% static 'img/projects/oilp.png' %}" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- Process -->
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>{% trans "Production Workflow" %}</h2>
+        </div>
+        <div class="row g-3 text-center">
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-seedling text-white"></i>
+                    </div>
+                    <h6 class="text-primary">01</h6>
+                    <h5>{% trans "Raw Material Intake" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-broom text-white"></i>
+                    </div>
+                    <h6 class="text-primary">02</h6>
+                    <h5>{% trans "Cleaning" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-compress-arrows-alt text-white"></i>
+                    </div>
+                    <h6 class="text-primary">03</h6>
+                    <h5>{% trans "Pressing / Extraction" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-filter text-white"></i>
+                    </div>
+                    <h6 class="text-primary">04</h6>
+                    <h5>{% trans "Refining" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-search text-white"></i>
+                    </div>
+                    <h6 class="text-primary">05</h6>
+                    <h5>{% trans "Quality Control" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-box text-white"></i>
+                    </div>
+                    <h6 class="text-primary">06</h6>
+                    <h5>{% trans "Packaging" %}</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Stats -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row g-5 text-center">
+            <div class="col-lg-4">
+                <h1 class="text-primary">5M$</h1>
+                <p>{% trans "Project Investment" %}</p>
+            </div>
+            <div class="col-lg-4">
+                <h1 class="text-primary">150+</h1>
+                <p>{% trans "Jobs Created" %}</p>
+            </div>
+            <div class="col-lg-4">
+                <h1 class="text-primary">10,000 t/year</h1>
+                <p>{% trans "Production Capacity" %}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="container-fluid py-5 text-center">
+    <h2 class="mb-4">{% trans "Looking for Reliable Oil Supply?" %}</h2>
+    <a href="{% url 'feedback' %}" class="btn btn-primary px-5 py-3">
+        {% trans "Contact Us" %}
+    </a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,218 @@
+{% extends 'core/base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- Header Start -->
+<div class="container-fluid bg-header py-5 dyeing-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {% trans "Dyeing & Finishing" %}
+            </h1>
+            <p class="text-white">
+                {% trans "Advanced textile dyeing and finishing solutions with modern technology." %}
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- About Section -->
+<div class="container-fluid py-5 wow fadeInUp">
+    <div class="container py-5">
+
+        <div class="section-title text-center position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "About Project" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "High Quality Fabric Processing" %}
+            </h1>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <p>
+                    {% trans "Our Dyeing & Finishing facility is equipped with modern machinery to ensure high-quality textile processing, color consistency, and eco-friendly production." %}
+                </p>
+
+                <p>
+                    {% trans "The project focuses on delivering premium fabrics for garment production, export markets, and industrial applications." %}
+                </p>
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <h6><i class="fa fa-check text-primary me-2"></i>{% trans "Automated dyeing systems" %}</h6>
+                        <h6><i class="fa fa-check text-primary me-2"></i>{% trans "Eco-friendly chemical usage" %}</h6>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h6><i class="fa fa-check text-primary me-2"></i>{% trans "High color fastness standards" %}</h6>
+                        <h6><i class="fa fa-check text-primary me-2"></i>{% trans "Large-scale production capacity" %}</h6>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="img-fluid rounded" src="{% static 'img/projects/dyeing1.png' %}" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Process Section -->
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+
+        <div class="section-title text-center position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "Process" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "Production Workflow" %}
+            </h1>
+        </div>
+
+        <div class="row g-3 text-center process-line">
+
+            <!-- Step 1 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-file-signature text-white"></i>
+                    </div>
+                    <h6 class="text-primary">01</h6>
+                    <h5>{% trans "Technical Approval" %}</h5>
+                    <p>{% trans "Fabric specifications and requirements are analyzed and approved." %}</p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-water text-white"></i>
+                    </div>
+                    <h6 class="text-primary">02</h6>
+                    <h5>{% trans "Pre-Treatment" %}</h5>
+                    <p>{% trans "Cleaning and preparation of raw fabric." %}</p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-fill-drip text-white"></i>
+                    </div>
+                    <h6 class="text-primary">03</h6>
+                    <h5>{% trans "Dyeing" %}</h5>
+                    <p>{% trans "Coloring using advanced dyeing machines." %}</p>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-cogs text-white"></i>
+                    </div>
+                    <h6 class="text-primary">04</h6>
+                    <h5>{% trans "Finishing" %}</h5>
+                    <p>{% trans "Softening, drying and chemical finishing." %}</p>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-shield-alt text-white"></i>
+                    </div>
+                    <h6 class="text-primary">05</h6>
+                    <h5>{% trans "Quality Control" %}</h5>
+                    <p>{% trans "Inspection and testing to meet quality standards." %}</p>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-truck text-white"></i>
+                    </div>
+                    <h6 class="text-primary">06</h6>
+                    <h5>{% trans "Delivery & Logistics" %}</h5>
+                    <p>{% trans "Packaging and shipment to customer or warehouse." %}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Stats Section -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+
+        <div class="row g-5 text-center">
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">26M$</h1>
+                <p>{% trans "Project Investment" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">500+</h1>
+                <p>{% trans "Jobs Created" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">360 Tons/year</h1>
+                <p>{% trans "Production Capacity" %}</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Vendor Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5 mb-5">
+        <div class="bg-white">
+            <div class="owl-carousel vendor-carousel">
+                <img src="{% static 'img/vendors/dv-1.png' %}" alt="">
+                <img src="{% static 'img/vendors/dv-2.png' %}" alt="">
+                <img src="{% static 'img/vendors/dv-3.png' %}" alt="">
+                <img src="{% static 'img/vendors/dv-4.png' %}" alt="">
+                <img src="{% static 'img/vendors/dv-5.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vendor End -->
+
+
+<!-- CTA -->
+<div class="container-fluid bg-primary py-5 wow fadeInUp">
+    <div class="container text-center py-5">
+        <h1 class="text-white mb-4">
+            {% trans "Looking for Reliable Textile Processing?" %}
+        </h1>
+        <a href="#" class="btn btn-light py-3 px-5">
+            {% trans "Contact Us" %}
+        </a>
+    </div>
+</div>
+
+{% endblock %}

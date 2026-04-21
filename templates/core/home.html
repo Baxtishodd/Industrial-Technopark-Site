@@ -1,0 +1,443 @@
+
+
+{% extends "core/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+
+
+<!-- Carousel Start -->
+<div class="container-fluid position-relative p-0">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="{% static 'img/img.png' %}" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">{% trans "INDUSTRIAL INNOVATION HUB" %}</h5>
+                        <h1 class="display-1 text-white mb-md-6 animated zoomIn">{% trans "We Invite Investors and Manufacturing Companies" %}</h1>
+                        <a target="_blank"
+                           href="https://www.youtube.com/watch?v=jOSmVBh-_i4&list=PLp8HTS59FoNooFAe88be8oyvpCoLkXeH0&index=5" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Video</a>
+                        <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">{% trans "Contact Us" %}</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+<!--        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"-->
+<!--            data-bs-slide="prev">-->
+<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Previous</span>-->
+<!--        </button>-->
+<!--        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"-->
+<!--            data-bs-slide="next">-->
+<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Next</span>-->
+<!--        </button>-->
+    </div>
+</div>
+
+<!-- Navbar & Carousel End -->
+
+
+<!-- Full Screen Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+            <div class="modal-header border-0">
+                <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center justify-content-center">
+                <div class="input-group" style="max-width: 600px;">
+                    <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                    <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Full Screen Search End -->
+
+
+<!-- Facts Start -->
+<div class="container-fluid facts py-5 pt-lg-0">
+    <div class="container py-5 pt-lg-0">
+        <div class="row gx-0">
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-users text-primary"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-white mb-0">{% trans "Jobs Created" %}</h5>
+                        <h1 class="text-white mb-0">
+                            <span data-toggle="counter-up">2000</span>+
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-project-diagram text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-primary mb-0">{% trans "Projects" %}</h5>
+                        <h1 class="mb-0">
+                            <span data-toggle="counter-up">30</span>+
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-dollar-sign text-primary"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-white mb-0">{% trans "Total Investment" %}</h5>
+                        <h1 class="text-white mb-0">
+                            $<span data-toggle="counter-up">200</span>M
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Facts Start -->
+
+
+<!-- About Start -->
+<div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                <h5 class="fw-bold text-primary text-uppercase">{% trans "About Technopark" %}</h5>
+                <h1 class="mb-0">Bunyodkor Industrial Technopark</h1>
+            </div>
+
+            <p class="mb-4">
+                {% trans "Bunyodkor Industrial Technopark is a modern industrial zone located in Koson district. The technopark was established to support industrial development, attract investments, and create new jobs. The territory covers 60 hectares and hosts various manufacturing projects including textile production, food processing, energy generation, and other industrial activities." %}
+            </p>
+
+            <div class="row g-0 mb-3">
+                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                    <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>{% trans "60 Hectares Industrial Area" %}</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>{% trans "30+ Industrial Projects" %}</h5>
+                </div>
+                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                    <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>{% trans "Modern Infrastructure" %}</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>{% trans "24/7 Security and Utilities" %}</h5>
+                </div>
+            </div>
+                <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="mb-2">{% trans "Call to ask any question" %}</h5>
+                        <h4 class="text-primary mb-0">+998 88 319 00 28</h4>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">{% trans "Request A Quote" %}</a>
+            </div>
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/about.jpg' %}" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Features Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+       <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">{% trans "Why Choose Our Technopark" %}</h5>
+            <h1 class="mb-0">{% trans "Modern Infrastructure for Industrial Development" %}</h1>
+       </div>
+
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <div class="row g-5">
+
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <i class="fa fa-industry text-white"></i>
+                        </div>
+                        <h4>{% trans "Modern Industrial Infrastructure" %}</h4>
+                        <p class="mb-0">
+                            {% trans "The technopark provides modern facilities designed for manufacturing and industrial production." %}
+                        </p>
+                    </div>
+
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <i class="fa fa-train text-white"></i>
+                        </div>
+                        <h4>{% trans "Railway Logistics Access" %}</h4>
+                        <p class="mb-0">
+                            {% trans "Direct railway connection allows efficient transportation and creates strong export opportunities." %}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded"
+                         src="{% static 'img/technopark.png' %}"
+                         style="object-fit: cover;">
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="row g-5">
+
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <i class="fa fa-bolt text-white"></i>
+                        </div>
+                        <h4>{% trans "Reliable Utilities" %}</h4>
+                        <p class="mb-0">
+                            {% trans "Continuous electricity, gas, hot water and steam supply for industrial operations." %}
+                        </p>
+                    </div>
+
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <i class="fa fa-shield-alt text-white"></i>
+                        </div>
+                        <h4>{% trans "24/7 Security" %}</h4>
+                        <p class="mb-0">
+                            {% trans "24/7 security of the territory and a safe environment for all technopark residents." %}
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features Start -->
+
+
+<!-- Service Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">{% trans "Our Services" %}</h5>
+            <h1 class="mb-0">{% trans "Industrial Infrastructure and Utility Services" %}</h1>
+        </div>
+
+        <div class="row g-5">
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-bolt text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Electric Power Supply" %}</h4>
+                    <p class="m-0">{% trans "Reliable and uninterrupted electricity supply for industrial production." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-fire text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Steam Supply" %}</h4>
+                    <p class="m-0">{% trans "Industrial steam supply for production processes and manufacturing needs." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-tint text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Hot Water Supply" %}</h4>
+                    <p class="m-0">{% trans "Stable hot water infrastructure supporting industrial operations." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-gas-pump text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Natural Gas Supply" %}</h4>
+                    <p class="m-0">{% trans "Continuous gas supply for industrial and manufacturing processes." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-train text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Railway Logistics" %}</h4>
+                    <p class="m-0">{% trans "Direct railway access for efficient cargo transportation and export operations." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-shield-alt text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "24/7 Security" %}</h4>
+                    <p class="m-0">{% trans "Round-the-clock security ensuring safety for all technopark residents." %}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Quote Start -->
+<div id="contact" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">{% trans "Contact Us" %}</h5>
+                    <h1 class="mb-0">{% trans "Start Your Project in Bunyodkor Technopark" %}</h1>
+                </div>
+
+                <div class="row gx-3">
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                        <h5 class="mb-4">
+                            <i class="fa fa-industry text-primary me-3"></i>
+                            {% trans "Modern Industrial Infrastructure" %}
+                        </h5>
+                    </div>
+
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                        <h5 class="mb-4">
+                            <i class="fa fa-train text-primary me-3"></i>
+                            {% trans "Railway Access for Export Logistics" %}
+                        </h5>
+                    </div>
+                </div>
+                {% trans "Bunyodkor Industrial Technopark provides a modern environment for manufacturing companies and investors. Residents benefit from developed infrastructure, reliable utilities, railway logistics and a secure industrial territory." %}
+
+
+                <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                         style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+
+                    <div class="ps-4">
+                        <h5 class="mb-2">{% trans "Contact Our Team" %}</h5>
+                        <h4 class="text-primary mb-0">+998 90 997 88 88</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-5">
+                <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                    <form method="POST">
+                        {% csrf_token %}
+
+                        <div class="row g-3">
+
+                            <div class="col-12">
+                                <input name="name" type="text" required
+                                       class="form-control bg-light border-0"
+                                       placeholder='{% trans "Company / Your Name" %}'
+                                       style="height: 55px;">
+                            </div>
+
+                            <div class="col-12">
+                                <input name="email" type="email"
+                                       class="form-control bg-light border-0"
+                                       placeholder='{% trans "Email Address" %}'
+                                       style="height: 55px;">
+                            </div>
+
+                            <div class="col-12">
+                                <input name="phone" type="text"
+                                       class="form-control bg-light border-0"
+                                       placeholder='{% trans "Phone number" %}'
+                                       style="height: 55px;">
+                            </div>
+
+                            <div class="col-12">
+                                <textarea name="message" required
+                                          class="form-control bg-light border-0"
+                                          rows="4"
+                                          placeholder='{% trans "Tell us about your project" %}'></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn btn-dark w-100 py-3" type="submit">
+                                    {% trans "Send Inquiry" %}
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Quote End -->
+
+
+<!-- Testimonial Start -->
+<!-- Testimonial End -->
+
+
+<!-- Team Start -->
+
+<!-- Team End -->
+
+
+<!-- Blog Start -->
+<!-- Blog Start -->
+
+
+<!-- Vendor Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5 mb-5">
+        <div class="bg-white">
+            <div class="owl-carousel vendor-carousel">
+                <img src="{% static 'img/vendor-1.jpg' %}" alt="">
+                <img src="{% static 'img/vendor-2.jpg' %}" alt="">
+                <img src="{% static 'img/vendor-3.jpg' %}" alt="">
+                <img src="{% static 'img/vendor-4.jpg' %}" alt="">
+                <img src="{% static 'img/vendor-5.jpg' %}" alt="">
+                <!--                <img src="{% static 'img/vendor-6.jpg' %}" alt="">-->
+                <!--                <img src="{% static 'img/vendor-7.jpg' %}" alt="">-->
+                <!--                <img src="{% static 'img/vendor-8.jpg' %}" alt="">-->
+                <!--                <img src="{% static 'img/vendor-9.jpg' %}" alt="">-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vendor End -->
+
+
+
+{% endblock %}
+
+<p class="mb-4">

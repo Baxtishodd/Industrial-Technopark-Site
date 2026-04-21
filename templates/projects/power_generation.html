@@ -1,0 +1,96 @@
+{% extends 'core/base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- Header -->
+<div class="container-fluid bg-header py-5 power-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+             <h1 class="display-4 text-white animated zoomIn">
+                 {% trans "Power Generation" %}
+             </h1>
+            <p class="text-white">
+                {% trans "Reliable Electricity and Utility Supply for Industrial Operations" %}
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- About -->
+<div class="container py-5 wow fadeInUp">
+    <div class="row g-5 align-items-center">
+        <div class="section-title text-center position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "About project" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "High-performance transformers and distribution systems." %}
+            </h1>
+        </div>
+        <div class="col-lg-6">
+            <h3>{% trans "Bunyodkor Energy" %}</h3>
+            <p>
+                {% trans "Bunyodkor Energy is a key resident providing continuous electricity, steam, and hot water supply for industrial production within the technopark." %}
+            </p>
+
+            <!-- Features -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-bolt text-primary me-2"></i>{% trans "24/7 Power Supply" %}</h6>
+                    <h6><i class="fa fa-fire text-warning me-2"></i>{% trans "Steam Generation" %}</h6>
+                </div>
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-water text-primary me-2"></i>{% trans "Hot Water System" %}</h6>
+                    <h6><i class="fa fa-leaf text-success me-2"></i>{% trans "Energy Efficient Operations" %}</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="{% static 'img/power.jpg' %}" alt="">
+        </div>
+
+    </div>
+</div>
+
+<!-- Stats Section -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+
+        <div class="row g-5 text-center">
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">3M$</h1>
+                <p>{% trans "Project Investment" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">30</h1>
+                <p>{% trans "Jobs Created" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">100 MW</h1>
+                <p>{% trans "Power Capacity" %}</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- CTA -->
+<div class="container-fluid py-5 text-center">
+    <h2 class="mb-4">
+        {% trans "Need Reliable Energy Supply?" %}
+    </h2>
+    <a href="#" class="btn btn-primary px-5 py-3">
+        {% trans "Contact Us" %}
+    </a>
+</div>
+
+{% endblock %}

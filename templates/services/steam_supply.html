@@ -1,0 +1,158 @@
+{% extends 'core/base.html' %}
+{% load i18n static %}
+
+{% block content %}
+
+<!-- Header Start -->
+<div class="container-fluid bg-header py-5 steam-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {% trans "Steam Supply" %}
+            </h1>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- About Service Start -->
+<div class="container-fluid py-5 wow fadeInUp">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <!-- Left Content -->
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        {% trans "Service Overview" %}
+                    </h5>
+                    <h1 class="mb-0">
+                        {% trans "Industrial Steam Supply System" %}
+                    </h1>
+                </div>
+
+                <p class="mb-4">
+                    {% trans "Our technopark provides high-quality steam supply for industrial processes including textile production, dyeing, and manufacturing. The system ensures stable pressure, efficiency, and continuous operation." %}
+                </p>
+
+                <div class="row g-0 mb-3">
+                    <div class="col-sm-6">
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "Stable Pressure Control" %}
+                        </h5>
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "24/7 Operation" %}
+                        </h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "High Efficiency Boilers" %}
+                        </h5>
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "Industrial Integration" %}
+                        </h5>
+                    </div>
+                </div>
+
+                <a href="" class="btn btn-primary py-3 px-5 mt-3">
+                    {% trans "Request Service" %}
+                </a>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-5" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded"
+                         src="{% static 'img/steam-supply.png' %}"
+                         style="object-fit: cover;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- About Service End -->
+
+
+<!-- Features Start -->
+<div class="container-fluid py-5 bg-light">
+    <div class="container py-5">
+
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "Features" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "Why Our Steam System" %}
+            </h1>
+        </div>
+
+        <div class="row g-5">
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-burn text-white"></i>
+                    </div>
+                    <h4 class="mb-3">
+                        {% trans "High Pressure Steam" %}
+                    </h4>
+                    <p>
+                        {% trans "Reliable steam pressure for industrial processes." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-cogs text-white"></i>
+                    </div>
+                    <h4 class="mb-3">
+                        {% trans "Process Optimization" %}
+                    </h4>
+                    <p>
+                        {% trans "Optimized steam usage for maximum efficiency." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-shield-alt text-white"></i>
+                    </div>
+                    <h4 class="mb-3">
+                        {% trans "Safe & Controlled" %}
+                    </h4>
+                    <p>
+                        {% trans "Advanced monitoring and safety systems." %}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+<!-- CTA Start -->
+<div class="container-fluid py-5 bg-primary">
+    <div class="container text-center py-5">
+        <h1 class="text-white mb-4">
+            {% trans "Need Steam Supply for Production?" %}
+        </h1>
+        <a href="" class="btn btn-light py-3 px-5">
+            {% trans "Contact Us" %}
+        </a>
+    </div>
+</div>
+<!-- CTA End -->
+
+{% endblock %}

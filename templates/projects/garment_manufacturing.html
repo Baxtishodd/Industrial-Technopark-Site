@@ -1,0 +1,174 @@
+{% extends 'core/base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- Header -->
+<div class="container-fluid bg-header py-5 kosonf-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {% trans "Garment Manufacturing" %}
+            </h1>
+
+            <p class="text-white">
+                {% trans "Koson Fashion LLC – Modern Apparel Production Facility" %}
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- About -->
+<div class="container py-5 wow fadeInUp">
+    <div class="row g-5 align-items-center">
+        <div class="section-title text-center position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "About project" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "High Quality Garment Processing." %}
+            </h1>
+        </div>
+        <div class="col-lg-6">
+            <h3>{% trans "Koson Fashion LLC" %}</h3>
+
+            <p>
+                {% trans "Koson Fashion LLC is a garment manufacturing resident specializing in high-quality apparel production for domestic and export markets." %}
+            </p>
+
+            <!-- Features -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-tshirt text-primary me-2"></i>{% trans "Modern Sewing Lines" %}</h6>
+                    <h6><i class="fa fa-users text-primary me-2"></i>{% trans "Skilled Workforce" %}</h6>
+                </div>
+                <div class="col-sm-6">
+                    <h6><i class="fa fa-check-circle text-primary me-2"></i>{% trans "Quality Control System" %}</h6>
+                    <h6><i class="fa fa-globe text-primary me-2"></i>{% trans "Export Ready Production" %}</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="{% static 'img/garment.jpg' %}" alt="">
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Process -->
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>{% trans "Production Workflow" %}</h2>
+        </div>
+
+        <div class="row g-3 text-center">
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-pencil-ruler text-white"></i>
+                    </div>
+                    <h6 class="text-primary">01</h6>
+                    <h5>{% trans "Design & Pattern" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-cut text-white"></i>
+                    </div>
+                    <h6 class="text-primary">02</h6>
+                    <h5>{% trans "Cutting" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-tshirt text-white"></i>
+                    </div>
+                    <h6 class="text-primary">03</h6>
+                    <h5>{% trans "Sewing" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-print text-white"></i>
+                    </div>
+                    <h6 class="text-primary">04</h6>
+                    <h5>{% trans "Printing / Finishing" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-search text-white"></i>
+                    </div>
+                    <h6 class="text-primary">05</h6>
+                    <h5>{% trans "Quality Control" %}</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4">
+                <div class="service-item bg-white p-4">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-box text-white"></i>
+                    </div>
+                    <h6 class="text-primary">06</h6>
+                    <h5>{% trans "Packaging" %}</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Stats Section -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+
+        <div class="row g-5 text-center">
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">3M$</h1>
+                <p>{% trans "Project Investment" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">100+</h1>
+                <p>{% trans "Jobs Created" %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h1 class="text-primary">100,000 pcs/year</h1>
+                <p>{% trans "Production Capacity" %}</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- CTA -->
+<div class="container-fluid py-5 text-center">
+    <h2 class="mb-4">
+        {% trans "Looking for Garment Manufacturing Partner?" %}
+    </h2>
+    <a href="#" class="btn btn-primary px-5 py-3">
+        {% trans "Contact Us" %}
+    </a>
+</div>
+
+{% endblock %}

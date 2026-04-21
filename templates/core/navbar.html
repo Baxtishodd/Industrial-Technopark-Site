@@ -1,0 +1,100 @@
+{% load static %}
+{% load i18n %}
+
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner"></div>
+</div>
+<!-- Spinner End -->
+
+<div class="container-fluid bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3">
+        <a href="{% url 'home' %}" class="navbar-brand p-0">
+            <img src="{% static 'img/logo.svg' %}" alt="Industrial Technopark Logo" style="height:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="{% url 'home' %}" class="nav-item nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">{% trans "Home" %}</a>
+                <a href="#about" class="nav-item nav-link">{% trans "About Us" %}</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle {% if request.resolver_match.url_name in 'electric_power hot_water steam_supply gas_supply security' %}active{% endif %}" data-bs-toggle="dropdown">{% trans "Services" %}</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="{% url 'electric_power' %}" class="dropdown-item ">{% trans "Electric Power Supply" %}</a>
+                        <a href="{% url 'hot_water' %}" class="dropdown-item">{% trans "Hot Water Supply" %}</a>
+                        <a href="{% url 'steam_supply' %}" class="dropdown-item">{% trans "Steam Supply" %}</a>
+                        <a href="{% url 'gas_supply' %}" class="dropdown-item">{% trans "Gas Supply" %}</a>
+                        <a href="{% url 'security' %}" class="dropdown-item">{% trans "24/7 Security Service" %}</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{% trans "Projects" %}</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="{% url 'dyeing_finishing' %}" class="dropdown-item">{% trans "Dyeing & Finishing" %}</a>
+                        <a href="{% url 'flour_production' %}" class="dropdown-item">{% trans "Flour Production" %}</a>
+                        <a href="{% url 'power_generation' %}" class="dropdown-item">{% trans "Power Generation" %}</a>
+                        <a href="{% url 'garment_manufacturing' %}" class="dropdown-item">{% trans "Garment Manufacturing" %}</a>
+                        <a href="{% url 'oil_production' %}" class="dropdown-item">{% trans "Oil Production" %}</a>
+                    </div>
+                </div>
+<!--                <div class="nav-item dropdown">-->
+<!--                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{% trans "Residents" %}</a>-->
+<!--                    <div class="dropdown-menu m-0">-->
+<!--                        <a href="" class="dropdown-item">BUNYODKOR</a>-->
+<!--                        <a href="" class="dropdown-item">Koson Fashion</a>-->
+<!--                        <a href="" class="dropdown-item">BUNYODKOR Energy</a>-->
+<!--                        <a href="" class="dropdown-item">Nasaf Gold</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+                 <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle {% if request.resolver_match.url_name in 'news_list news_detail' %}active{% endif %}" data-bs-toggle="dropdown">{% trans "News" %}</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="{% url 'news_list' %}" class="dropdown-item">{% trans "News" %}</a>
+                        <a href="{% url 'news_list' %}?category=events" class="dropdown-item">{% trans "Events" %}</a>
+                        <a href="{% url 'news_list' %}?category=press_release" class="dropdown-item">{% trans "Press-reliz" %}</a>
+                        <a href="{% url 'news_list' %}?category=reports" class="dropdown-item">{% trans "Reports" %}</a>
+                        <a href="{% url 'gallery_list' %}" class="dropdown-item">{% trans "Gallery" %}</a>
+                        <a href="{% url 'document_list' %}" class="dropdown-item">{% trans "Documents" %}</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{% trans "Contact" %}</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="{% url 'leadership' %}" class="dropdown-item">{% trans "Leadership" %}</a>
+                        <a href="{% url 'management' %}" class="dropdown-item">{% trans "Management" %}</a>
+                        <a href="{% url 'feedback' %}" class="dropdown-item">{% trans "Feedback" %}</a>
+                        <a href="{% url 'location' %}" class="dropdown-item">{% trans "Location" %}</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    {% get_current_language as LANGUAGE_CODE %}
+
+                    <form action="{% url 'set_language' %}" method="post" class="d-flex gap-2">
+                        {% csrf_token %}
+                        <input type="hidden" name="next" value="{{ request.path }}">
+
+                        <button type="submit" name="language" value="en"
+                            class="btn btn-sm {% if LANGUAGE_CODE == 'en' %}btn-light text-dark{% else %}btn-outline-light{% endif %}">
+                            EN
+                        </button>
+
+                        <button type="submit" name="language" value="uz"
+                            class="btn btn-sm {% if LANGUAGE_CODE == 'uz' %}btn-light text-dark{% else %}btn-outline-light{% endif %}">
+                            UZ
+                        </button>
+
+                        <button type="submit" name="language" value="ru"
+                            class="btn btn-sm {% if LANGUAGE_CODE == 'ru' %}btn-light text-dark{% else %}btn-outline-light{% endif %}">
+                            RU
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+            <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+        </div>
+    </nav>
+</div>

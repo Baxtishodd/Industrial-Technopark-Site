@@ -1,0 +1,66 @@
+{% extends 'core/base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- Header -->
+<div class="container-fluid bg-header py-5 location-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-1 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {{ news.get_title }}
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+            <div class="bg-white rounded shadow overflow-hidden">
+
+                <!-- Image -->
+                {% if news.image %}
+                <img src="{{ news.image.url }}" class="img-fluid w-100"
+                     style="max-height:450px; object-fit:cover;">
+                {% endif %}
+
+                <div class="p-4 p-lg-5">
+
+                    <!-- Meta -->
+                    <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
+                        <span class="badge bg-primary text-uppercase">
+                            {{ news.get_category_display }}
+                        </span>
+                        <small class="text-muted">
+                            <i class="fa fa-calendar me-1"></i>{{ news.published_at }}
+                        </small>
+                        <small class="text-muted">
+                            <i class="fa fa-eye me-1"></i>{{ news.views }} {% trans "views" %}
+                        </small>
+                    </div>
+
+                    <!-- Title -->
+                    <h2 class="fw-bold text-primary mb-4">{{ news.get_title }}</h2>
+
+                    <!-- Body -->
+                    <div class="text-secondary" style="line-height:1.8; font-size:16px;">
+                        {{ news.get_body|linebreaks }}
+                    </div>
+
+                    <!-- Back button -->
+                    <div class="mt-5">
+                        <a href="{% url 'news_list' %}" class="btn btn-outline-primary">
+                            <i class="fa fa-arrow-left me-2"></i>{% trans "Back to News" %}
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

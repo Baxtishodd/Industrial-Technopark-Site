@@ -1,0 +1,2506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-19 20:38+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\bunyodkor_texnopark\settings.py:113
+msgid "English"
+msgstr "Inglizcha"
+
+#: .\bunyodkor_texnopark\settings.py:114
+msgid "Uzbek"
+msgstr "O'zbekcha"
+
+#: .\bunyodkor_texnopark\settings.py:115
+msgid "Russian"
+msgstr "Ruscha"
+
+#: .\templates\contact\feedback.html:10 .\templates\core\navbar.html:67
+msgid "Feedback"
+msgstr "Fikr-mulohaza"
+
+#: .\templates\contact\feedback.html:11
+#, fuzzy
+#| msgid "Send Inquiry"
+msgid "Send us your inquiry"
+msgstr "So‘rov yuborish"
+
+#: .\templates\contact\feedback.html:39 .\templates\core\home.html:364
+msgid "Company / Your Name"
+msgstr "Kompaniya / Ismingiz"
+
+#: .\templates\contact\feedback.html:46 .\templates\core\home.html:371
+msgid "Email Address"
+msgstr "Elektron pochta manzili"
+
+#: .\templates\contact\feedback.html:53 .\templates\core\home.html:378
+msgid "Phone number"
+msgstr "Telefon raqami"
+
+#: .\templates\contact\feedback.html:61 .\templates\core\home.html:386
+msgid "Tell us about your project"
+msgstr "Loyihangiz haqida bizga aytib bering"
+
+#: .\templates\contact\feedback.html:66 .\templates\core\home.html:391
+msgid "Send Inquiry"
+msgstr "So‘rov yuborish"
+
+#: .\templates\contact\leadership.html:11 .\templates\core\navbar.html:65
+msgid "Leadership"
+msgstr "Rahbariyat"
+
+#: .\templates\contact\location.html:10
+#, fuzzy
+#| msgid "Flour Production"
+msgid "Our Location"
+msgstr "Un ishlab chiqarish"
+
+#: .\templates\contact\location.html:11
+msgid "Find us easily on the map"
+msgstr "Bizni xaritada oson toping"
+
+#: .\templates\contact\location.html:24 .\templates\core\navbar.html:68
+msgid "Location"
+msgstr "Manzil"
+
+#: .\templates\contact\location.html:25
+#, fuzzy
+#| msgid "Why Choose Our Technopark"
+msgid "Bunyodkor Industrial Technopark"
+msgstr "Nega Bizning Texnoparkni Tanlaysiz"
+
+#: .\templates\contact\location.html:28
+msgid ""
+"Our technopark is located in Koson district, Kashkadarya region, Uzbekistan. "
+"It is designed to support industrial production, investment projects, and "
+"export-oriented businesses."
+msgstr ""
+"Bizning texnopark O'zbekiston, Qashqadaryo viloyati, Koson tumanida joylashgan. "
+"U sanoat ishlab chiqarishini, investitsiya loyihalarini va "
+"eksportga yo'naltirilgan bizneslarni qo'llab-quvvatlash uchun mo'ljallangan."
+
+#: .\templates\contact\location.html:32
+#, fuzzy
+#| msgid "Koson, Kashkadaryo, Uzbekistan"
+msgid "Koson, Kashkadarya, Uzbekistan"
+msgstr "Koson, Qashqadaryo, O'zbekiston"
+
+#: .\templates\contact\management.html:11 .\templates\core\navbar.html:66
+msgid "Management"
+msgstr "Boshqaruv"
+
+#: .\templates\contact\management.html:19
+#, fuzzy
+#| msgid "Contact Our Team"
+msgid "Our Team"
+msgstr "Jamoamiz bilan bog‘laning"
+
+#: .\templates\contact\management.html:20
+#, fuzzy
+#| msgid "Management"
+msgid "Management Team"
+msgstr "Boshqaruv"
+
+#: .\templates\core\footer.html:13 .\templates\core\navbar.html:63
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\templates\core\footer.html:17
+msgid "Koson, Kashkadaryo, Uzbekistan"
+msgstr "Koson, Qashqadaryo, O'zbekiston"
+
+#: .\templates\core\footer.html:37
+msgid "Quick Links"
+msgstr "Tezkor havola"
+
+#: .\templates\core\footer.html:40 .\templates\core\navbar.html:20
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: .\templates\core\footer.html:41 .\templates\core\home.html:121
+msgid "About Technopark"
+msgstr "Texnopark haqida"
+
+#: .\templates\core\footer.html:42
+msgid "Infrastructure"
+msgstr "Infrastruktura"
+
+#: .\templates\core\footer.html:43 .\templates\core\home.html:88
+#: .\templates\core\navbar.html:33
+msgid "Projects"
+msgstr "Loyihalar"
+
+#: .\templates\core\footer.html:44 .\templates\core\navbar.html:43
+msgid "Residents"
+msgstr "Rezidentlar"
+
+#: .\templates\core\footer.html:45
+msgid "Vacancies"
+msgstr "vakansiyalar"
+
+#: .\templates\core\home.html:19
+msgid "INDUSTRIAL INNOVATION HUB"
+msgstr "INDUSTRIAL INNOVATSION XAB"
+
+#: .\templates\core\home.html:20
+msgid "We Invite Investors and Manufacturing Companies"
+msgstr "Biz Investor va Ishlab Chiquvchilarni Taklif Qilamiz"
+
+#: .\templates\core\home.html:23 .\templates\core\home.html:318
+#: .\templates\projects\dyeing_finishing.html:213
+#: .\templates\projects\garment_manufacturing.html:170
+#: .\templates\projects\oil_production.html:171
+#: .\templates\projects\power_generation.html:92
+#: .\templates\services\gas_supply.html:156
+#: .\templates\services\hot_water.html:144
+#: .\templates\services\security.html:152
+#: .\templates\services\steam_supply.html:152
+msgid "Contact Us"
+msgstr "Kontakt"
+
+#: .\templates\core\home.html:74 .\templates\projects\dyeing_finishing.html:175
+#: .\templates\projects\flour_production.html:147
+#: .\templates\projects\garment_manufacturing.html:150
+#: .\templates\projects\oil_production.html:151
+#: .\templates\projects\power_generation.html:72
+msgid "Jobs Created"
+msgstr "Ish o'rni yaratilgan"
+
+#: .\templates\core\home.html:102
+msgid "Total Investment"
+msgstr "Umumiy Investitsiya"
+
+#: .\templates\core\home.html:126
+msgid ""
+"Bunyodkor Industrial Technopark is a modern industrial zone located in Koson "
+"district. The technopark was established to support industrial development, "
+"attract investments, and create new jobs. The territory covers 60 hectares "
+"and hosts various manufacturing projects including textile production, food "
+"processing, energy generation, and other industrial activities."
+msgstr ""
+"Bunyodkor Industrial Texnoparki Koson tumanida joylashgan zamonaviy sanoat "
+"hududidir. Texnopark sanoat rivojlanishini qo‘llab-quvvatlash, "
+"investitsiyalarni jalb qilish va yangi ish o‘rinlarini yaratish maqsadida "
+"tashkil etilgan. Hudud 60 gektarni tashkil etadi va unda to‘qimachilik "
+"ishlab chiqarishi, oziq-ovqatni qayta ishlash, energiya ishlab chiqarish "
+"hamda boshqa sanoat faoliyatlarini o‘z ichiga olgan turli ishlab chiqarish "
+"loyihalari joylashgan."
+
+#: .\templates\core\home.html:131
+msgid "60 Hectares Industrial Area"
+msgstr "60 gektar sanoat hududi"
+
+#: .\templates\core\home.html:132
+msgid "30+ Industrial Projects"
+msgstr "30+ sanoat loyihalari"
+
+#: .\templates\core\home.html:135
+msgid "Modern Infrastructure"
+msgstr "Infrastruktura"
+
+#: .\templates\core\home.html:136
+msgid "24/7 Security and Utilities"
+msgstr "24/7 Xavfsizlik xizmati"
+
+#: .\templates\core\home.html:144
+msgid "Call to ask any question"
+msgstr "Har qanday savol uchun qo‘ng‘iroq qiling"
+
+#: .\templates\core\home.html:148
+msgid "Request A Quote"
+msgstr "Narx taklifini so‘rash"
+
+#: .\templates\core\home.html:165
+msgid "Why Choose Our Technopark"
+msgstr "Nega Bizning Texnoparkni Tanlaysiz"
+
+#: .\templates\core\home.html:166
+msgid "Modern Infrastructure for Industrial Development"
+msgstr "Sanoat rivoji uchun zamonaviy infratuzilma"
+
+#: .\templates\core\home.html:177 .\templates\core\home.html:326
+msgid "Modern Industrial Infrastructure"
+msgstr "Zamonaviy sanoat infratuzilmasi"
+
+#: .\templates\core\home.html:179
+msgid ""
+"The technopark provides modern facilities designed for manufacturing and "
+"industrial production."
+msgstr ""
+"Texnopark ishlab chiqarish va sanoat faoliyati uchun mo‘ljallangan zamonaviy "
+"infratuzilmani taqdim etadi."
+
+#: .\templates\core\home.html:187
+msgid "Railway Logistics Access"
+msgstr "Temir yo‘l logistikasiga kirish imkoniyati"
+
+#: .\templates\core\home.html:189
+msgid ""
+"Direct railway connection allows efficient transportation and creates strong "
+"export opportunities."
+msgstr ""
+"To‘g‘ridan-to‘g‘ri temir yo‘l aloqasi samarali transportni ta’minlaydi va "
+"keng eksport imkoniyatlarini yaratadi."
+
+#: .\templates\core\home.html:211
+msgid "Reliable Utilities"
+msgstr "Ishonchli kommunal xizmatlar"
+
+#: .\templates\core\home.html:213
+msgid ""
+"Continuous electricity, gas, hot water and steam supply for industrial "
+"operations."
+msgstr ""
+"Sanoat jarayonlari uchun elektr energiyasi, gaz, issiq suv va bug‘ bilan "
+"uzluksiz ta’minot."
+
+#: .\templates\core\home.html:221 .\templates\core\home.html:301
+msgid "24/7 Security"
+msgstr "24/7 Xavfsizlik xizmati"
+
+#: .\templates\core\home.html:223
+msgid ""
+"24/7 security of the territory and a safe environment for all technopark "
+"residents."
+msgstr ""
+"Hududning 24/7 qo‘riqlanishi va barcha texnopark rezidentlari uchun xavfsiz "
+"muhit."
+
+#: .\templates\core\home.html:240
+msgid "Our Services"
+msgstr "Xizmatlar"
+
+#: .\templates\core\home.html:241
+msgid "Industrial Infrastructure and Utility Services"
+msgstr "Sanoat infratuzilmasi va kommunal xizmatlar"
+
+#: .\templates\core\home.html:251 .\templates\core\navbar.html:25
+#: .\templates\services\electric_power.html:12
+msgid "Electric Power Supply"
+msgstr "Uzluksiz energiya"
+
+#: .\templates\core\home.html:252
+msgid ""
+"Reliable and uninterrupted electricity supply for industrial production."
+msgstr "Sanoat ishlab chiqarishi uchun ishonchli va uzluksiz elektr ta’minoti."
+
+#: .\templates\core\home.html:261 .\templates\core\navbar.html:27
+#: .\templates\services\steam_supply.html:11
+msgid "Steam Supply"
+msgstr "Bug' taminoti"
+
+#: .\templates\core\home.html:262
+msgid ""
+"Industrial steam supply for production processes and manufacturing needs."
+msgstr ""
+"Ishlab chiqarish jarayonlari va ehtiyojlari uchun sanoat bug‘i ta’minoti."
+
+#: .\templates\core\home.html:271 .\templates\core\navbar.html:26
+#: .\templates\services\hot_water.html:13
+msgid "Hot Water Supply"
+msgstr "Issiq suv taminoti"
+
+#: .\templates\core\home.html:272
+msgid "Stable hot water infrastructure supporting industrial operations."
+msgstr ""
+"Sanoat jarayonlarini qo‘llab-quvvatlovchi barqaror issiq suv infratuzilmasi."
+
+#: .\templates\core\home.html:281
+msgid "Natural Gas Supply"
+msgstr "Tabiiy gaz ta’minoti"
+
+#: .\templates\core\home.html:282
+msgid "Continuous gas supply for industrial and manufacturing processes."
+msgstr "Sanoat va ishlab chiqarish jarayonlari uchun uzluksiz gaz ta’minoti."
+
+#: .\templates\core\home.html:291
+msgid "Railway Logistics"
+msgstr "Temir yo‘l logistikasi"
+
+#: .\templates\core\home.html:292
+msgid ""
+"Direct railway access for efficient cargo transportation and export "
+"operations."
+msgstr ""
+"Yuklarni samarali tashish va eksport operatsiyalari uchun to‘g‘ridan-to‘g‘ri "
+"temir yo‘lga kirish imkoniyati."
+
+#: .\templates\core\home.html:302
+msgid "Round-the-clock security ensuring safety for all technopark residents."
+msgstr ""
+"Barcha texnopark rezidentlari uchun xavfsizlikni ta’minlovchi 24/7 "
+"qo‘riqlash xizmati."
+
+#: .\templates\core\home.html:319
+msgid "Start Your Project in Bunyodkor Technopark"
+msgstr "Bunyodkor texnoparkida loyihangizni boshlang"
+
+#: .\templates\core\home.html:333
+msgid "Railway Access for Export Logistics"
+msgstr "Eksport logistikasi uchun temir yo‘lga kirish imkoniyati"
+
+#: .\templates\core\home.html:337
+msgid ""
+"Bunyodkor Industrial Technopark provides a modern environment for "
+"manufacturing companies and investors. Residents benefit from developed "
+"infrastructure, reliable utilities, railway logistics and a secure "
+"industrial territory."
+msgstr ""
+"Bunyodkor Industrial Texnoparki ishlab chiqarish kompaniyalari va "
+"investorlar uchun zamonaviy muhitni taqdim etadi. Rezidentlar rivojlangan "
+"infratuzilma, ishonchli kommunal xizmatlar, temir yo‘l logistikasi hamda "
+"xavfsiz sanoat hududidan foydalanish imkoniyatiga ega."
+
+#: .\templates\core\home.html:347
+msgid "Contact Our Team"
+msgstr "Jamoamiz bilan bog‘laning"
+
+#: .\templates\core\navbar.html:21
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: .\templates\core\navbar.html:23
+msgid "Services"
+msgstr "Xizmatlar"
+
+#: .\templates\core\navbar.html:28 .\templates\services\gas_supply.html:13
+msgid "Gas Supply"
+msgstr "Gaz taminoti"
+
+#: .\templates\core\navbar.html:29 .\templates\services\security.html:11
+msgid "24/7 Security Service"
+msgstr "24/7 Xavfsizlik xizmati"
+
+#: .\templates\core\navbar.html:35
+#: .\templates\projects\dyeing_finishing.html:11
+msgid "Dyeing & Finishing"
+msgstr "Matoga gul bosish va bo'yash"
+
+#: .\templates\core\navbar.html:36
+msgid "Flour Production"
+msgstr "Un ishlab chiqarish"
+
+#: .\templates\core\navbar.html:37
+#: .\templates\projects\power_generation.html:11
+msgid "Power Generation"
+msgstr "Energiya ishlab chiqarish"
+
+#: .\templates\core\navbar.html:38
+#: .\templates\projects\garment_manufacturing.html:11
+msgid "Garment Manufacturing"
+msgstr "Tayyor kiyim"
+
+#: .\templates\core\navbar.html:39 .\templates\projects\oil_production.html:11
+msgid "Oil Production"
+msgstr "Yog' ishlab chiqarish"
+
+#: .\templates\core\navbar.html:52 .\templates\core\navbar.html:54
+#: .\templates\news\news_list.html:11
+msgid "News"
+msgstr "Yangiliklar"
+
+#: .\templates\core\navbar.html:55
+msgid "Events"
+msgstr "Hodisalar"
+
+#: .\templates\core\navbar.html:56
+msgid "Press-reliz"
+msgstr "Matbuot"
+
+#: .\templates\core\navbar.html:57
+msgid "Reports"
+msgstr "Xisobotlar"
+
+#: .\templates\core\navbar.html:58 .\templates\news\gallery_list.html:11
+msgid "Gallery"
+msgstr "Galereya"
+
+#: .\templates\core\navbar.html:59 .\templates\news\document_list.html:11
+msgid "Documents"
+msgstr "Hujjatlar"
+
+#: .\templates\news\document_list.html:23 .\templates\news\news_list.html:23
+msgid "All"
+msgstr "Barchasi"
+
+#: .\templates\news\document_list.html:74
+msgid "Download"
+msgstr "Yuklab olish"
+
+#: .\templates\news\document_list.html:82
+msgid "No documents found."
+msgstr "Hujjatlar topilmadi."
+
+#: .\templates\news\gallery_detail.html:22
+msgid "Back to Gallery"
+msgstr "Galereyaga qaytish"
+
+#: .\templates\news\gallery_detail.html:27
+msgid "photos"
+msgstr "fotosurat"
+
+#: .\templates\news\gallery_detail.html:45
+msgid "No images in this album."
+msgstr "Bu albumda rasmlar yo'q."
+
+#: .\templates\news\gallery_list.html:49
+msgid "No albums found."
+msgstr "Albumlar topilmadi."
+
+#: .\templates\news\news_detail.html:40
+msgid "views"
+msgstr "ko'rishlar"
+
+#: .\templates\news\news_detail.html:55
+msgid "Back to News"
+msgstr "Yangiliklarga qaytish"
+
+#: .\templates\news\news_list.html:74
+msgid "Read more"
+msgstr "Batafsil"
+
+#: .\templates\news\news_list.html:83
+msgid "No news found."
+msgstr "Yangiliklar topilmadi."
+
+#: .\templates\projects\dyeing_finishing.html:14
+msgid "Advanced textile dyeing and finishing solutions with modern technology."
+msgstr "Zamonaviy texnologiyalar yordamida to'qimachilik bo'yash va qayta ishlashning ilg'or yechimlari."
+
+#: .\templates\projects\dyeing_finishing.html:28
+#, fuzzy
+#| msgid "Projects"
+msgid "About Project"
+msgstr "Loyihalar"
+
+#: .\templates\projects\dyeing_finishing.html:31
+msgid "High Quality Fabric Processing"
+msgstr "Yuqori sifatli mato qayta ishlash"
+
+#: .\templates\projects\dyeing_finishing.html:38
+msgid ""
+"Our Dyeing & Finishing facility is equipped with modern machinery to ensure "
+"high-quality textile processing, color consistency, and eco-friendly "
+"production."
+msgstr ""
+"Bizning bo'yash va qayta ishlash korxonamiz yuqori sifatli to'qimachilik "
+"ishlov berish, rang barqarorligi va ekologik toza ishlab chiqarishni "
+"ta'minlash uchun zamonaviy uskunalar bilan jihozlangan."
+
+#: .\templates\projects\dyeing_finishing.html:42
+msgid ""
+"The project focuses on delivering premium fabrics for garment production, "
+"export markets, and industrial applications."
+msgstr ""
+"Loyiha tikuvchilik sanoati, eksport bozorlari va sanoat ehtiyojlari uchun "
+"yuqori sifatli matoalar yetkazib berishga qaratilgan."
+
+#: .\templates\projects\dyeing_finishing.html:48
+msgid "Automated dyeing systems"
+msgstr "Avtomatlashtirilgan bo'yash tizimlari"
+
+#: .\templates\projects\dyeing_finishing.html:49
+msgid "Eco-friendly chemical usage"
+msgstr "Ekologik toza kimyoviy moddalar"
+
+#: .\templates\projects\dyeing_finishing.html:53
+msgid "High color fastness standards"
+msgstr "Rang barqarorligining yuqori standartlari"
+
+#: .\templates\projects\dyeing_finishing.html:54
+msgid "Large-scale production capacity"
+msgstr "Katta hajmli ishlab chiqarish quvvati"
+
+#: .\templates\projects\dyeing_finishing.html:75
+msgid "Process"
+msgstr "Jarayon"
+
+#: .\templates\projects\dyeing_finishing.html:78
+#: .\templates\projects\flour_production.html:63
+#: .\templates\projects\garment_manufacturing.html:67
+#: .\templates\projects\oil_production.html:67
+#, fuzzy
+#| msgid "Oil Production"
+msgid "Production Workflow"
+msgstr "Yog' ishlab chiqarish"
+
+#: .\templates\projects\dyeing_finishing.html:91
+msgid "Technical Approval"
+msgstr "Texnik tasdiqlash"
+
+#: .\templates\projects\dyeing_finishing.html:92
+msgid "Fabric specifications and requirements are analyzed and approved."
+msgstr "Mato texnik ko'rsatkichlari va talablari tahlil qilinadi va tasdiqlanadi."
+
+#: .\templates\projects\dyeing_finishing.html:103
+msgid "Pre-Treatment"
+msgstr "Oldindan ishlov berish"
+
+#: .\templates\projects\dyeing_finishing.html:104
+msgid "Cleaning and preparation of raw fabric."
+msgstr "Xom matoni tozalash va tayyorlash."
+
+#: .\templates\projects\dyeing_finishing.html:115
+msgid "Dyeing"
+msgstr "Bo'yash"
+
+#: .\templates\projects\dyeing_finishing.html:116
+msgid "Coloring using advanced dyeing machines."
+msgstr "Ilg'or bo'yash mashinalari yordamida rangga bo'yash."
+
+#: .\templates\projects\dyeing_finishing.html:127
+#, fuzzy
+#| msgid "Dyeing & Finishing"
+msgid "Finishing"
+msgstr "Matoga gul bosish va bo'yash"
+
+#: .\templates\projects\dyeing_finishing.html:128
+msgid "Softening, drying and chemical finishing."
+msgstr "Yumshatish, quritish va kimyoviy pardozlash."
+
+#: .\templates\projects\dyeing_finishing.html:139
+#: .\templates\projects\flour_production.html:114
+#: .\templates\projects\garment_manufacturing.html:118
+#: .\templates\projects\oil_production.html:118
+msgid "Quality Control"
+msgstr "Sifat nazorati"
+
+#: .\templates\projects\dyeing_finishing.html:140
+msgid "Inspection and testing to meet quality standards."
+msgstr "Sifat standartlariga mosligini tekshirish va sinov."
+
+#: .\templates\projects\dyeing_finishing.html:151
+msgid "Delivery & Logistics"
+msgstr "Yetkazib berish va logistika"
+
+#: .\templates\projects\dyeing_finishing.html:152
+msgid "Packaging and shipment to customer or warehouse."
+msgstr "Mijoz yoki omborga qadoqlash va jo'natish."
+
+#: .\templates\projects\dyeing_finishing.html:170
+#: .\templates\projects\flour_production.html:142
+#: .\templates\projects\garment_manufacturing.html:145
+#: .\templates\projects\oil_production.html:146
+#: .\templates\projects\power_generation.html:67
+msgid "Project Investment"
+msgstr "Umumiy Investitsiya"
+
+#: .\templates\projects\dyeing_finishing.html:180
+#: .\templates\projects\flour_production.html:152
+#: .\templates\projects\garment_manufacturing.html:155
+#: .\templates\projects\oil_production.html:156
+msgid "Production Capacity"
+msgstr "Ishlab chiqarish quvvati"
+
+#: .\templates\projects\dyeing_finishing.html:210
+#, fuzzy
+#| msgid "Looking for Reliable Gas Supply?"
+msgid "Looking for Reliable Textile Processing?"
+msgstr "Ishonchli gaz ta’minotini qidiryapsizmi?"
+
+#: .\templates\projects\flour_production.html:10
+msgid "Nasaf Gold – Flour Production"
+msgstr "Nasaf Gold – Un ishlab chiqarish"
+
+#: .\templates\projects\flour_production.html:12
+msgid "High-quality wheat processing with modern milling technology."
+msgstr "Zamonaviy tegirmon texnologiyalari yordamida yuqori sifatli bug'doy qayta ishlash."
+
+#: .\templates\projects\flour_production.html:23
+#: .\templates\projects\garment_manufacturing.html:27
+#: .\templates\projects\oil_production.html:27
+#: .\templates\projects\power_generation.html:26
+msgid "About project"
+msgstr "Loyiha haqida"
+
+#: .\templates\projects\flour_production.html:26
+msgid "High Quality Flour Production"
+msgstr "Yuqori sifatli un ishlab chiqarish"
+
+#: .\templates\projects\flour_production.html:31
+msgid "Modern Milling Facility"
+msgstr "Zamonaviy tegirmon korxonasi"
+
+#: .\templates\projects\flour_production.html:33
+msgid ""
+"This resident operates a modern flour production facility within Bunyodkor "
+"Industrial Technopark, supplying high-quality wheat flour to domestic and "
+"international markets."
+msgstr ""
+"Bu rezident Bunyodkor Industrial Texnoparkida zamonaviy un ishlab chiqarish "
+"korxonasini boshqarib, ichki va xalqaro bozorlarga yuqori sifatli bug'doy "
+"uni yetkazib beradi."
+
+#: .\templates\projects\flour_production.html:39
+msgid "Automated milling systems"
+msgstr "Avtomatlashtirilgan tegirmon tizimlari"
+
+#: .\templates\projects\flour_production.html:40
+msgid "Clean and hygienic production"
+msgstr "Toza va gigiyenik ishlab chiqarish"
+
+#: .\templates\projects\flour_production.html:43
+msgid "High daily capacity"
+msgstr "Yuqori kunlik quvvat"
+
+#: .\templates\projects\flour_production.html:44
+msgid "Consistent quality standards"
+msgstr "Barqaror sifat standartlari"
+
+#: .\templates\projects\flour_production.html:74
+msgid "Raw Wheat Intake"
+msgstr "Xom bug'doy qabul qilish"
+
+#: .\templates\projects\flour_production.html:84
+#: .\templates\projects\oil_production.html:88
+msgid "Cleaning"
+msgstr "Tozalash"
+
+#: .\templates\projects\flour_production.html:94
+msgid "Conditioning"
+msgstr "Konditsionlash"
+
+#: .\templates\projects\flour_production.html:104
+msgid "Milling"
+msgstr "Tortish"
+
+#: .\templates\projects\flour_production.html:124
+#: .\templates\projects\garment_manufacturing.html:128
+#: .\templates\projects\oil_production.html:128
+msgid "Packaging"
+msgstr "Qadoqlash"
+
+#: .\templates\projects\flour_production.html:165
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: .\templates\projects\flour_production.html:172
+msgid "Premium Wheat Flour"
+msgstr "Premium sifatli bug'doy uni"
+
+#: .\templates\projects\flour_production.html:173
+msgid "High-quality flour for baking and industrial use."
+msgstr "Non pishirish va sanoat ishlatilishi uchun yuqori sifatli un."
+
+#: .\templates\projects\flour_production.html:179
+msgid "First Grade Flour"
+msgstr "Birinchi nav un"
+
+#: .\templates\projects\flour_production.html:180
+msgid "Balanced quality for daily consumption."
+msgstr "Kundalik iste'mol uchun muvozanatli sifat."
+
+#: .\templates\projects\flour_production.html:186
+msgid "Bran"
+msgstr "Kepak"
+
+#: .\templates\projects\flour_production.html:187
+msgid "By-product used for animal feed."
+msgstr "Chorva ozuqasi uchun ishlatiladigan qo'shimcha mahsulot."
+
+#: .\templates\projects\flour_production.html:200
+msgid "Looking for Reliable Flour Supply?"
+msgstr "Ishonchli un ta'minotini qidiryapsizmi?"
+
+#: .\templates\projects\flour_production.html:203
+msgid "Contact Resident"
+msgstr "Hamkor Kontakti"
+
+#: .\templates\projects\garment_manufacturing.html:15
+msgid "Koson Fashion LLC – Modern Apparel Production Facility"
+msgstr "Koson Fashion LLC – Zamonaviy kiyim ishlab chiqarish korxonasi"
+
+#: .\templates\projects\garment_manufacturing.html:30
+msgid "High Quality Garment Processing."
+msgstr "Yuqori sifatli kiyim ishlov berish."
+
+#: .\templates\projects\garment_manufacturing.html:34
+msgid "Koson Fashion LLC"
+msgstr "Koson Fashion LLC"
+
+#: .\templates\projects\garment_manufacturing.html:37
+msgid ""
+"Koson Fashion LLC is a garment manufacturing resident specializing in high-"
+"quality apparel production for domestic and export markets."
+msgstr ""
+"Koson Fashion LLC — ichki va eksport bozorlari uchun yuqori sifatli "
+"kiyim ishlab chiqarishga ixtisoslashgan tikuv sanoati rezidenti."
+
+#: .\templates\projects\garment_manufacturing.html:43
+msgid "Modern Sewing Lines"
+msgstr "Zamonaviy tikuv liniyalari"
+
+#: .\templates\projects\garment_manufacturing.html:44
+msgid "Skilled Workforce"
+msgstr "Malakali ishchi kuchi"
+
+#: .\templates\projects\garment_manufacturing.html:47
+msgid "Quality Control System"
+msgstr "Sifat nazorati tizimi"
+
+#: .\templates\projects\garment_manufacturing.html:48
+msgid "Export Ready Production"
+msgstr "Eksportga tayyor ishlab chiqarish"
+
+#: .\templates\projects\garment_manufacturing.html:78
+msgid "Design & Pattern"
+msgstr "Dizayn va andoza"
+
+#: .\templates\projects\garment_manufacturing.html:88
+msgid "Cutting"
+msgstr "Kesish"
+
+#: .\templates\projects\garment_manufacturing.html:98
+msgid "Sewing"
+msgstr "Tikish"
+
+#: .\templates\projects\garment_manufacturing.html:108
+msgid "Printing / Finishing"
+msgstr "Pechatlash / Yakunlash"
+
+#: .\templates\projects\garment_manufacturing.html:167
+msgid "Looking for Garment Manufacturing Partner?"
+msgstr "Kiyim ishlab chiqarish bo'yicha hamkor qidiryapsizmi?"
+
+#: .\templates\projects\oil_production.html:15
+msgid "Vegetable Oil Processing and Production Facility"
+msgstr "O'simlik moyi qayta ishlash va ishlab chiqarish korxonasi"
+
+#: .\templates\projects\oil_production.html:30
+msgid "High-Quality Oil Processing"
+msgstr "Yuqori sifatli moy qayta ishlash"
+
+#: .\templates\projects\oil_production.html:34
+msgid "Koson Yog' LLC"
+msgstr "Koson Yog' LLC"
+
+#: .\templates\projects\oil_production.html:37
+msgid ""
+"This resident operates a modern oil production facility, processing raw "
+"agricultural materials into high-quality vegetable oil for domestic and "
+"export markets."
+msgstr ""
+"Bu rezident zamonaviy moy ishlab chiqarish korxonasini boshqarib, qishloq "
+"xo'jaligi xomashyosini ichki va eksport bozorlariga mo'ljallangan yuqori "
+"sifatli o'simlik moyiga qayta ishlaydi."
+
+#: .\templates\projects\oil_production.html:43
+msgid "Automated Processing Lines"
+msgstr "Avtomatlashtirilgan ishlab chiqarish liniyalari"
+
+#: .\templates\projects\oil_production.html:44
+msgid "Eco-friendly Production"
+msgstr "Yog' ishlab chiqarish"
+
+#: .\templates\projects\oil_production.html:47
+#, fuzzy
+#| msgid "Oil Production"
+msgid "High Production Capacity"
+msgstr "Yog' ishlab chiqarish"
+
+#: .\templates\projects\oil_production.html:48
+msgid "Quality Assurance System"
+msgstr "Sifatni ta'minlash tizimi"
+
+#: .\templates\projects\oil_production.html:78
+msgid "Raw Material Intake"
+msgstr "Xom ashyo qabul qilish"
+
+#: .\templates\projects\oil_production.html:98
+msgid "Pressing / Extraction"
+msgstr "Presslash / Ekstraksiya"
+
+#: .\templates\projects\oil_production.html:108
+msgid "Refining"
+msgstr "Tozalash"
+
+#: .\templates\projects\oil_production.html:168
+msgid "Looking for Reliable Oil Supply?"
+msgstr "Ishonchli yog' ta'minoti qidiryapsizmi??"
+
+#: .\templates\projects\power_generation.html:14
+msgid "Reliable Electricity and Utility Supply for Industrial Operations"
+msgstr "Sanoat faoliyati uchun ishonchli elektr energiyasi va kommunal ta'minot"
+
+#: .\templates\projects\power_generation.html:29
+#: .\templates\services\electric_power.html:85
+msgid "High-performance transformers and distribution systems."
+msgstr ""
+"Yuqori samaradorlikka ega transformatorlar va elektr taqsimlash tizimlari."
+
+#: .\templates\projects\power_generation.html:33
+msgid "Bunyodkor Energy"
+msgstr "Bunyodkor Energy"
+
+#: .\templates\projects\power_generation.html:35
+msgid ""
+"Bunyodkor Energy is a key resident providing continuous electricity, steam, "
+"and hot water supply for industrial production within the technopark."
+msgstr ""
+"Bunyodkor Energy — texnopark ichidagi sanoat ishlab chiqarishi uchun "
+"uzluksiz elektr energiyasi, bug' va issiq suv ta'minotini ta'minlovchi "
+"asosiy rezident."
+
+#: .\templates\projects\power_generation.html:41
+msgid "24/7 Power Supply"
+msgstr "24/7 Quvvat manbai"
+
+#: .\templates\projects\power_generation.html:42
+msgid "Steam Generation"
+msgstr "Bug'ishlab chiqarish"
+
+#: .\templates\projects\power_generation.html:45
+msgid "Hot Water System"
+msgstr "Issiq suv taminoti"
+
+#: .\templates\projects\power_generation.html:46
+msgid "Energy Efficient Operations"
+msgstr "Energiya samarador tizim"
+
+#: .\templates\projects\power_generation.html:77
+msgid "Power Capacity"
+msgstr "Quvvat sig'imi"
+
+#: .\templates\projects\power_generation.html:89
+msgid "Need Reliable Energy Supply?"
+msgstr "Ishonchli xavfsizlik xizmati kerakmi?"
+
+#: .\templates\services\electric_power.html:45
+msgid "Energy Infrastructure"
+msgstr "Infrastruktura"
+
+#: .\templates\services\electric_power.html:48
+msgid "Reliable Electric Power Supply for Industrial Needs"
+msgstr "Sanoat ishlab chiqarishi uchun ishonchli va uzluksiz elektr ta’minoti."
+
+#: .\templates\services\electric_power.html:56
+msgid ""
+"The Bunyodkor Industrial Technopark provides stable and uninterrupted "
+"electric power supply to all resident companies operating within the zone."
+msgstr ""
+"Bunyodkor Industrial Texnoparki hududda faoliyat yuritayotgan barcha "
+"rezident korxonalarni barqaror va uzluksiz elektr energiyasi bilan "
+"ta’minlaydi."
+
+#: .\templates\services\electric_power.html:60
+msgid ""
+"Our infrastructure is designed to support large-scale industrial production, "
+"ensuring high efficiency and reliability."
+msgstr ""
+"Bizning infratuzilmamiz yirik sanoat ishlab chiqarishini qo‘llab-quvvatlash "
+"uchun mo‘ljallangan bo‘lib, yuqori samaradorlik va ishonchlilikni "
+"ta’minlaydi."
+
+#: .\templates\services\electric_power.html:64
+msgid ""
+"Power is generated and distributed through modern systems that meet "
+"international standards."
+msgstr ""
+"Elektr energiyasi xalqaro standartlarga javob beradigan zamonaviy tizimlar "
+"orqali ishlab chiqariladi va taqsimlanadi."
+
+#: .\templates\services\electric_power.html:74
+msgid "24/7 Continuous Supply"
+msgstr "24/7 uzluksiz ta’minot"
+
+#: .\templates\services\electric_power.html:76
+msgid "Uninterrupted electricity availability for all production processes."
+msgstr "Sanoat ishlab chiqarishi uchun ishonchli va uzluksiz elektr ta’minoti."
+
+#: .\templates\services\electric_power.html:83
+msgid "Modern Equipment"
+msgstr "Zamonaviy uskunalar"
+
+#: .\templates\services\electric_power.html:92
+msgid "Scalable Capacity"
+msgstr "Moslashuvchan quvvat"
+
+#: .\templates\services\electric_power.html:94
+msgid "Flexible power capacity to support business growth."
+msgstr ""
+"Biznes o‘sishini qo‘llab-quvvatlash uchun moslashuvchan elektr quvvati."
+
+#: .\templates\services\electric_power.html:101
+msgid "Energy Efficiency"
+msgstr "Energiya samaradorligi"
+
+#: .\templates\services\electric_power.html:103
+msgid "Optimized systems to reduce energy loss and costs."
+msgstr ""
+"Energiya yo‘qotishlari va xarajatlarni kamaytirishga qaratilgan "
+"optimallashtirilgan tizimlar."
+
+#: .\templates\services\electric_power.html:121
+msgid "Powering Industrial Growth"
+msgstr "Zamonaviy sanoat infratuzilmasi"
+
+#: .\templates\services\electric_power.html:124
+msgid ""
+"Our electric power supply system plays a key role in ensuring uninterrupted "
+"production and operational stability for all enterprises within the "
+"technopark."
+msgstr ""
+"Bizning elektr ta’minoti tizimimiz texnopark hududidagi barcha korxonalar "
+"uchun uzluksiz ishlab chiqarish va operatsion barqarorlikni ta’minlashda "
+"muhim rol o‘ynaydi."
+
+#: .\templates\services\gas_supply.html:32
+#: .\templates\services\hot_water.html:32
+#: .\templates\services\steam_supply.html:28
+msgid "Service Overview"
+msgstr "Xizmat haqida umumiy ma’lumot"
+
+#: .\templates\services\gas_supply.html:35
+msgid "Industrial Gas Supply System"
+msgstr "Tabiiy gaz ta’minoti"
+
+#: .\templates\services\gas_supply.html:40
+msgid ""
+"Our technopark ensures stable and uninterrupted gas supply for industrial "
+"facilities. The system is designed to support high-demand production "
+"processes with safety, efficiency, and continuous monitoring."
+msgstr ""
+"Bizning texnopark sanoat obyektlari uchun barqaror va uzluksiz gaz "
+"ta’minotini ta’minlaydi. Tizim yuqori yuklama talab qiladigan ishlab "
+"chiqarish jarayonlarini xavfsizlik, samaradorlik va doimiy monitoring "
+"asosida qo‘llab-quvvatlash uchun loyihalashtirilgan."
+
+#: .\templates\services\gas_supply.html:47
+msgid "Stable Pressure Supply"
+msgstr "Uzluksiz energiya"
+
+#: .\templates\services\gas_supply.html:51
+#: .\templates\services\hot_water.html:47
+msgid "24/7 Availability"
+msgstr "24/7 doimiy mavjudlik"
+
+#: .\templates\services\gas_supply.html:57
+#: .\templates\services\hot_water.html:61
+msgid "Industrial Capacity"
+msgstr "30+ sanoat loyihalari"
+
+#: .\templates\services\gas_supply.html:61
+msgid "Safety Monitoring Systems"
+msgstr "Xavfsizlik monitoring tizimlari"
+
+#: .\templates\services\gas_supply.html:67
+#: .\templates\services\hot_water.html:67
+#: .\templates\services\steam_supply.html:63
+#, fuzzy
+#| msgid "Our Services"
+msgid "Request Service"
+msgstr "Xizmatlar"
+
+#: .\templates\services\gas_supply.html:92
+#: .\templates\services\hot_water.html:92
+#: .\templates\services\steam_supply.html:88
+msgid "Features"
+msgstr "Imkoniyatlar"
+
+#: .\templates\services\gas_supply.html:95
+msgid "Why Our Gas Supply System"
+msgstr "Tabiiy gaz ta’minoti"
+
+#: .\templates\services\gas_supply.html:107
+msgid "Reliable Supply"
+msgstr "Bug' taminoti"
+
+#: .\templates\services\gas_supply.html:110
+msgid "Continuous gas flow for uninterrupted production."
+msgstr "Uzluksiz ishlab chiqarish uchun doimiy gaz ta’minoti."
+
+#: .\templates\services\gas_supply.html:121
+msgid "Pressure Control"
+msgstr "Bosim nazorati"
+
+#: .\templates\services\gas_supply.html:124
+msgid "Accurate pressure regulation for industrial needs."
+msgstr "Sanoat ehtiyojlari uchun bosimni aniq rostlash."
+
+#: .\templates\services\gas_supply.html:135
+msgid "Safety Systems"
+msgstr "Xavfsizlik tizimlari"
+
+#: .\templates\services\gas_supply.html:138
+msgid "Advanced monitoring and аварийная защита."
+msgstr "Ilg‘or monitoring va avariyaviy himoya."
+
+#: .\templates\services\gas_supply.html:153
+msgid "Looking for Reliable Gas Supply?"
+msgstr "Ishonchli gaz ta’minotini qidiryapsizmi?"
+
+#: .\templates\services\hot_water.html:35
+msgid "Reliable Hot Water Supply System"
+msgstr "Issiq suv taminoti"
+
+#: .\templates\services\hot_water.html:40
+msgid ""
+"Our technopark provides continuous and efficient hot water supply for "
+"industrial and residential needs. The system is designed to ensure "
+"stability, energy efficiency, and safety."
+msgstr ""
+"Bizning texnopark sanoat va turar joy ehtiyojlari uchun uzluksiz va samarali "
+"issiq suv ta’minotini taqdim etadi. Tizim barqarorlik, energiya "
+"samaradorligi va xavfsizlikni ta’minlash uchun loyihalashtirilgan."
+
+#: .\templates\services\hot_water.html:51
+msgid "Energy Efficient System"
+msgstr "Energiya samarador tizim"
+
+#: .\templates\services\hot_water.html:57
+msgid "Centralized Heating"
+msgstr "Markazlashgan isitish"
+
+#: .\templates\services\hot_water.html:95
+msgid "Why Choose Our System"
+msgstr "Nega Bizning Texnoparkni Tanlaysiz"
+
+#: .\templates\services\hot_water.html:106
+msgid "High Temperature Stability"
+msgstr "Yuqori harorat barqarorligi"
+
+#: .\templates\services\hot_water.html:107
+msgid "Consistent hot water temperature across all facilities."
+msgstr "Barcha obyektlarda issiq suv haroratining barqaror saqlanishi."
+
+#: .\templates\services\hot_water.html:116
+msgid "Industrial Scale"
+msgstr "30+ sanoat loyihalari"
+
+#: .\templates\services\hot_water.html:117
+msgid "Designed for factories and large-scale production."
+msgstr "Zavodlar va yirik hajmli ishlab chiqarish uchun mo‘ljallangan."
+
+#: .\templates\services\hot_water.html:126
+msgid "Safe Operation"
+msgstr "Energiya ishlab chiqarish"
+
+#: .\templates\services\hot_water.html:127
+msgid "Advanced safety systems and monitoring."
+msgstr "Ilg‘or xavfsizlik tizimlari va monitoring."
+
+#: .\templates\services\hot_water.html:141
+msgid "Need Hot Water Supply for Your Business?"
+msgstr "Biznesingiz uchun issiq suv ta’minoti kerakmi?"
+
+#: .\templates\services\security.html:30
+msgid "Security Overview"
+msgstr "Xizmat haqida umumiy ma’lumot"
+
+#: .\templates\services\security.html:34
+msgid "24/7 Protection for Industrial Facilities"
+msgstr "Sanoat obyektlari uchun 24/7 himoya"
+
+#: .\templates\services\security.html:38
+msgid ""
+"Our security service ensures continuous monitoring and protection of the "
+"technopark territory, infrastructure, and residents."
+msgstr ""
+"Bizning xavfsizlik xizmatimiz texnopark hududi, infratuzilmasi va "
+"rezidentlarini doimiy kuzatuv va himoya bilan ta’minlaydi."
+
+#: .\templates\services\security.html:42
+msgid ""
+"We provide professional guards, surveillance systems, and rapid response to "
+"any incidents."
+msgstr ""
+"Biz professional qo‘riqchilar, videokuzatuv tizimlari va har qanday "
+"hodisalarga tezkor javob choralarini taqdim etamiz."
+
+#: .\templates\services\security.html:58
+msgid "Our Features"
+msgstr "Xizmatlar"
+
+#: .\templates\services\security.html:61
+msgid "Comprehensive Security Solutions"
+msgstr "Kompleks xavfsizlik yechimlari"
+
+#: .\templates\services\security.html:72
+msgid "24/7 Surveillance"
+msgstr "24/7 videokuzatuv"
+
+#: .\templates\services\security.html:73
+msgid "Continuous CCTV monitoring across all areas."
+msgstr "Barcha hududlarda uzluksiz CCTV kuzatuvi."
+
+#: .\templates\services\security.html:82
+msgid "Professional Guards"
+msgstr "Professional qo‘riqchilar"
+
+#: .\templates\services\security.html:83
+msgid "Trained personnel ensuring on-site safety."
+msgstr "Hududda xavfsizlikni ta’minlovchi malakali xodimlar."
+
+#: .\templates\services\security.html:92
+msgid "Rapid Response"
+msgstr "Tezkor javob"
+
+#: .\templates\services\security.html:93
+msgid "Immediate action in case of emergencies."
+msgstr "Favqulodda holatlarda zudlik bilan choralar ko‘riladi."
+
+#: .\templates\services\security.html:111
+msgid "Monitoring"
+msgstr "Monitoring"
+
+#: .\templates\services\security.html:112
+msgid "Constant surveillance and patrol."
+msgstr "Doimiy kuzatuv va patrullik nazorati."
+
+#: .\templates\services\security.html:117
+msgid "Detection"
+msgstr "Aniqlash"
+
+#: .\templates\services\security.html:118
+msgid "Identifying threats or unusual activity."
+msgstr "Tahdidlar yoki noodatiy faoliyatni aniqlash."
+
+#: .\templates\services\security.html:123
+msgid "Response"
+msgstr "Javob choralari"
+
+#: .\templates\services\security.html:124
+msgid "Immediate intervention and control."
+msgstr "Zudlik bilan aralashuv va nazorat."
+
+#: .\templates\services\security.html:129
+msgid "Reporting"
+msgstr "Hisobotlar"
+
+#: .\templates\services\security.html:130
+msgid "Detailed incident documentation."
+msgstr "Hodisalar bo‘yicha batafsil hujjatlashtirish."
+
+#: .\templates\services\security.html:144
+msgid "Need Reliable Security?"
+msgstr "Ishonchli xavfsizlik xizmati kerakmi?"
+
+#: .\templates\services\security.html:148
+msgid "Contact us today to secure your business and assets."
+msgstr ""
+"Biznesingiz va aktivlaringizni himoya qilish uchun bugunoq biz bilan "
+"bog‘laning."
+
+#: .\templates\services\steam_supply.html:31
+msgid "Industrial Steam Supply System"
+msgstr "Sanoat bug‘ ta’minoti tizimi"
+
+#: .\templates\services\steam_supply.html:36
+msgid ""
+"Our technopark provides high-quality steam supply for industrial processes "
+"including textile production, dyeing, and manufacturing. The system ensures "
+"stable pressure, efficiency, and continuous operation."
+msgstr ""
+"Bizning texnopark to‘qimachilik ishlab chiqarishi, bo‘yash va boshqa sanoat "
+"jarayonlari uchun yuqori sifatli bug‘ ta’minotini taqdim etadi. Tizim "
+"barqaror bosim, samaradorlik va uzluksiz ishlashni ta’minlaydi."
+
+#: .\templates\services\steam_supply.html:43
+msgid "Stable Pressure Control"
+msgstr "Barqaror bosim nazorati"
+
+#: .\templates\services\steam_supply.html:47
+msgid "24/7 Operation"
+msgstr "24/7 uzluksiz ishlash"
+
+#: .\templates\services\steam_supply.html:53
+msgid "High Efficiency Boilers"
+msgstr "Yuqori samarador qozonlar"
+
+#: .\templates\services\steam_supply.html:57
+msgid "Industrial Integration"
+msgstr "Sanoat tizimlariga integratsiya"
+
+#: .\templates\services\steam_supply.html:91
+msgid "Why Our Steam System"
+msgstr "Nega aynan bizning bug‘ tizimimiz"
+
+#: .\templates\services\steam_supply.html:103
+msgid "High Pressure Steam"
+msgstr "Yuqori bosimli bug‘"
+
+#: .\templates\services\steam_supply.html:106
+#, fuzzy
+#| msgid "Accurate pressure regulation for industrial needs."
+msgid "Reliable steam pressure for industrial processes."
+msgstr "Sanoat ehtiyojlari uchun bosimni aniq rostlash."
+
+#: .\templates\services\steam_supply.html:117
+msgid "Process Optimization"
+msgstr "Jarayonlarni optimallashtirish"
+
+#: .\templates\services\steam_supply.html:120
+msgid "Optimized steam usage for maximum efficiency."
+msgstr "Bug'dan maksimal samaradorlik uchun optimallashtirilgan foydalanish."
+
+#: .\templates\services\steam_supply.html:131
+msgid "Safe & Controlled"
+msgstr "Xavfsiz va nazorat ostida"
+
+#: .\templates\services\steam_supply.html:134
+msgid "Advanced monitoring and safety systems."
+msgstr "Ilg‘or monitoring va xavfsizlik tizimlari."
+
+#: .\templates\services\steam_supply.html:149
+msgid "Need Steam Supply for Production?"
+msgstr "Ishlab chiqarish uchun bug‘ ta’minoti kerakmi?"
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr "Xabarlar"
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:35
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:36
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:37
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:153
+#: .\venv\Lib\site-packages\django\forms\fields.py:774
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:309
+#: .\venv\Lib\site-packages\django\core\validators.py:318
+#: .\venv\Lib\site-packages\django\core\validators.py:332
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:320
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:514
+#: .\venv\Lib\site-packages\django\forms\fields.py:365
+#: .\venv\Lib\site-packages\django\forms\fields.py:404
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1633
+#: .\venv\Lib\site-packages\django\forms\models.py:932
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1635
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1161
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1164
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1214
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1216
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1325
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1426
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1430
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1565
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1434
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1561
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1569
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1574
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1701
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1703
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2310
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1275
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1382
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to
+#. the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:188
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:92
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:314
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:485
+#: .\venv\Lib\site-packages\django\forms\fields.py:1251
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:508
+#: .\venv\Lib\site-packages\django\forms\fields.py:1252
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:535
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:569
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:570
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:639
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:640
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:641
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:643
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:648
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:716
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:872
+#: .\venv\Lib\site-packages\django\forms\fields.py:959
+#: .\venv\Lib\site-packages\django\forms\models.py:1621
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:961
+#: .\venv\Lib\site-packages\django\forms\fields.py:1080
+#: .\venv\Lib\site-packages\django\forms\models.py:1619
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1081
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1323
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1353
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:97
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:925
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:930
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:937
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:946
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1383
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1474
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1623
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:528
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:529
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:530
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:869
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:870
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:871
+msgid "No"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:34
+msgctxt "Task"
+msgid "Ready"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:36
+msgctxt "Task"
+msgid "Running"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:38
+msgctxt "Task"
+msgid "Failed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:40
+msgctxt "Task"
+msgid "Successful"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:878
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:908
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:925
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:927
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:929
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:931
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:933
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:935
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:288
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:307
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:353
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""

@@ -1,0 +1,159 @@
+{% extends 'core/base.html' %}
+{% load i18n static %}
+
+{% block content %}
+
+<!-- Header Start -->
+<div class="container-fluid bg-header py-5 security-header">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-4 text-white animated zoomIn">
+                {% trans "24/7 Security Service" %}
+            </h1>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- About Security Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+
+            <div class="col-lg-6">
+                <img class="img-fluid rounded" src="{% static 'img/sec2.png' %}" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <h5 class="text-primary text-uppercase">
+                    {% trans "Security Overview" %}
+                </h5>
+
+                <h1 class="mb-4">
+                    {% trans "24/7 Protection for Industrial Facilities" %}
+                </h1>
+
+                <p>
+                    {% trans "Our security service ensures continuous monitoring and protection of the technopark territory, infrastructure, and residents." %}
+                </p>
+
+                <p>
+                    {% trans "We provide professional guards, surveillance systems, and rapid response to any incidents." %}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Features Start -->
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "Our Features" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "Comprehensive Security Solutions" %}
+            </h1>
+        </div>
+
+        <div class="row g-5">
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-video text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "24/7 Surveillance" %}</h4>
+                    <p>{% trans "Continuous CCTV monitoring across all areas." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-user-shield text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Professional Guards" %}</h4>
+                    <p>{% trans "Trained personnel ensuring on-site safety." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="service-item bg-white rounded text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fa fa-bolt text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Rapid Response" %}</h4>
+                    <p>{% trans "Immediate action in case of emergencies." %}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+<!-- Process Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+
+        <div class="row g-5 text-center">
+
+            <div class="col-lg-3 col-md-6">
+                <h1 class="text-primary">01</h1>
+                <h5>{% trans "Monitoring" %}</h5>
+                <p>{% trans "Constant surveillance and patrol." %}</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h1 class="text-primary">02</h1>
+                <h5>{% trans "Detection" %}</h5>
+                <p>{% trans "Identifying threats or unusual activity." %}</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h1 class="text-primary">03</h1>
+                <h5>{% trans "Response" %}</h5>
+                <p>{% trans "Immediate intervention and control." %}</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h1 class="text-primary">04</h1>
+                <h5>{% trans "Reporting" %}</h5>
+                <p>{% trans "Detailed incident documentation." %}</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Process End -->
+
+
+<!-- CTA Start -->
+<div class="container-fluid bg-primary py-5">
+    <div class="container text-center py-5">
+        <h1 class="text-white mb-4">
+            {% trans "Need Reliable Security?" %}
+        </h1>
+
+        <p class="text-white mb-4">
+            {% trans "Contact us today to secure your business and assets." %}
+        </p>
+
+        <a href="#" class="btn btn-light py-3 px-5">
+            {% trans "Contact Us" %}
+        </a>
+    </div>
+</div>
+<!-- CTA End -->
+
+
+{% endblock %}

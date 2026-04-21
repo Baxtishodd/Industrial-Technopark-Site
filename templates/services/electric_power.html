@@ -1,0 +1,130 @@
+{% extends 'core/base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- Navbar Start -->
+<div class="container-fluid position-relative p-0">
+
+    <div class="container-fluid bg-primary py-5 power-header" style="margin-bottom: 90px;">
+        <div class="row py-5">
+            <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                <h1 class="display-4 text-white animated zoomIn">{% trans "Electric Power Supply" %}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+<!-- Full Screen Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+            <div class="modal-header border-0">
+                <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center justify-content-center">
+                <div class="input-group" style="max-width: 600px;">
+                    <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                    <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Full Screen Search End -->
+
+<!-- Service Detail Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+
+        <!-- Title -->
+        <div class="section-title position-relative pb-3 mb-5">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "Energy Infrastructure" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "Reliable Electric Power Supply for Industrial Needs" %}
+            </h1>
+        </div>
+
+        <!-- Description -->
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <p>
+                    {% trans "The Bunyodkor Industrial Technopark provides stable and uninterrupted electric power supply to all resident companies operating within the zone." %}
+                </p>
+
+                <p>
+                    {% trans "Our infrastructure is designed to support large-scale industrial production, ensuring high efficiency and reliability." %}
+                </p>
+
+                <p>
+                    {% trans "Power is generated and distributed through modern systems that meet international standards." %}
+                </p>
+            </div>
+
+            <!-- Features -->
+            <div class="col-lg-6">
+                <div class="row g-3">
+
+                    <div class="col-12">
+                        <div class="bg-light rounded p-4">
+                            <h5>{% trans "24/7 Continuous Supply" %}</h5>
+                            <p class="mb-0">
+                                {% trans "Uninterrupted electricity availability for all production processes." %}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="bg-light rounded p-4">
+                            <h5>{% trans "Modern Equipment" %}</h5>
+                            <p class="mb-0">
+                                {% trans "High-performance transformers and distribution systems." %}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="bg-light rounded p-4">
+                            <h5>{% trans "Scalable Capacity" %}</h5>
+                            <p class="mb-0">
+                                {% trans "Flexible power capacity to support business growth." %}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="bg-light rounded p-4">
+                            <h5>{% trans "Energy Efficiency" %}</h5>
+                            <p class="mb-0">
+                                {% trans "Optimized systems to reduce energy loss and costs." %}
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Service Detail End -->
+
+
+<!-- Additional Info Start -->
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5 text-center">
+        <h2 class="mb-4">
+            {% trans "Powering Industrial Growth" %}
+        </h2>
+        <p class="mb-0">
+            {% trans "Our electric power supply system plays a key role in ensuring uninterrupted production and operational stability for all enterprises within the technopark." %}
+        </p>
+    </div>
+</div>
+<!-- Additional Info End -->
+
+{% endblock %}

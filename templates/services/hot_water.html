@@ -1,0 +1,150 @@
+{% extends 'core/base.html' %}
+{% load i18n static %}
+
+{% block content %}
+
+<!-- Header Start -->
+<div class="container-fluid position-relative p-0">
+
+    <div class="container-fluid bg-primary py-5 water-header" style="margin-bottom: 90px;">
+        <div class="row py-5">
+            <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                <h1 class="display-4 text-white animated zoomIn">
+                    {% trans "Hot Water Supply" %}
+                </h1>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- Header End -->
+
+
+<!-- About Service Start -->
+<div class="container-fluid py-5 wow fadeInUp">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <!-- Left Content -->
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        {% trans "Service Overview" %}
+                    </h5>
+                    <h1 class="mb-0">
+                        {% trans "Reliable Hot Water Supply System" %}
+                    </h1>
+                </div>
+
+                <p class="mb-4">
+                    {% trans "Our technopark provides continuous and efficient hot water supply for industrial and residential needs. The system is designed to ensure stability, energy efficiency, and safety." %}
+                </p>
+
+                <div class="row g-0 mb-3">
+                    <div class="col-sm-6 wow zoomIn">
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "24/7 Availability" %}
+                        </h5>
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "Energy Efficient System" %}
+                        </h5>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn">
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "Centralized Heating" %}
+                        </h5>
+                        <h5 class="mb-3">
+                            <i class="fa fa-check text-primary me-3"></i>
+                            {% trans "Industrial Capacity" %}
+                        </h5>
+                    </div>
+                </div>
+
+                <a href="" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn">
+                    {% trans "Request Service" %}
+                </a>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-5" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn"
+                         src="{% static 'img/hot-water.png' %}"
+                         style="object-fit: cover;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- About Service End -->
+
+
+<!-- Features Start -->
+<div class="container-fluid py-5 bg-light wow fadeInUp">
+    <div class="container py-5">
+
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto">
+            <h5 class="fw-bold text-primary text-uppercase">
+                {% trans "Features" %}
+            </h5>
+            <h1 class="mb-0">
+                {% trans "Why Choose Our System" %}
+            </h1>
+        </div>
+
+        <div class="row g-5">
+
+            <div class="col-lg-4 wow zoomIn">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-fire text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "High Temperature Stability" %}</h4>
+                    <p>{% trans "Consistent hot water temperature across all facilities." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-industry text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Industrial Scale" %}</h4>
+                    <p>{% trans "Designed for factories and large-scale production." %}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <div class="service-icon">
+                        <i class="fa fa-shield-alt text-white"></i>
+                    </div>
+                    <h4 class="mb-3">{% trans "Safe Operation" %}</h4>
+                    <p>{% trans "Advanced safety systems and monitoring." %}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+<!-- CTA Start -->
+<div class="container-fluid py-5 bg-primary wow fadeInUp">
+    <div class="container text-center py-5">
+        <h1 class="text-white mb-4">
+            {% trans "Need Hot Water Supply for Your Business?" %}
+        </h1>
+        <a href="" class="btn btn-light py-3 px-5">
+            {% trans "Contact Us" %}
+        </a>
+    </div>
+</div>
+<!-- CTA End -->
+
+{% endblock %}
