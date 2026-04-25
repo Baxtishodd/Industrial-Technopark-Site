@@ -1,7 +1,13 @@
-venv/
-.env
-db.sqlite3
 __pycache__/
 *.pyc
+*.pyo
+
+venv/
+env/
+
+db.sqlite3
+
+staticfiles/
 media/
-.idea
+
+.env
