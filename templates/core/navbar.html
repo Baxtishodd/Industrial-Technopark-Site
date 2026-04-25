@@ -7,7 +7,7 @@
 </div>
 <!-- Spinner End -->
 
-<div class="container-fluid bg-primary">
+<div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3">
         <a href="{% url 'home' %}" class="navbar-brand p-0">
             <img src="{% static 'img/logo.svg' %}" alt="Industrial Technopark Logo" style="height:50px;">
@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="{% url 'home' %}" class="nav-item nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">{% trans "Home" %}</a>
-                <a href="#about" class="nav-item nav-link">{% trans "About Us" %}</a>
+                <a href="{% url 'home' %}#about" class="nav-item nav-link">{% trans "About Us" %}</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle {% if request.resolver_match.url_name in 'electric_power hot_water steam_supply gas_supply security' %}active{% endif %}" data-bs-toggle="dropdown">{% trans "Services" %}</a>
                     <div class="dropdown-menu m-0">
