@@ -12,3 +12,7 @@ staticfiles/
 media/
 
 .env
+
+passenger_wsgi.py
+tmp/
+=10.0
