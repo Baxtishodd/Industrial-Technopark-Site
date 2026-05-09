@@ -39,15 +39,6 @@
                         <a href="{% url 'oil_production' %}" class="dropdown-item">{% trans "Oil Production" %}</a>
                     </div>
                 </div>
-<!--                <div class="nav-item dropdown">-->
-<!--                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{% trans "Residents" %}</a>-->
-<!--                    <div class="dropdown-menu m-0">-->
-<!--                        <a href="" class="dropdown-item">BUNYODKOR</a>-->
-<!--                        <a href="" class="dropdown-item">Koson Fashion</a>-->
-<!--                        <a href="" class="dropdown-item">BUNYODKOR Energy</a>-->
-<!--                        <a href="" class="dropdown-item">Nasaf Gold</a>-->
-<!--                    </div>-->
-<!--                </div>-->
                  <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle {% if request.resolver_match.url_name in 'news_list news_detail' %}active{% endif %}" data-bs-toggle="dropdown">{% trans "News" %}</a>
                     <div class="dropdown-menu m-0">

@@ -16,3 +16,6 @@ media/
 passenger_wsgi.py
 tmp/
 =10.0
+
+logs/
+*.log
